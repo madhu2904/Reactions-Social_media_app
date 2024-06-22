@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,174 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar
+{
+  /* background-color:blueviolet; */
+  /* background-color:cadetblue;
+   */
+   background-color: #0067A5;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display:grid;
+  grid-template-columns: 6fr 1fr;
+min-height:70px; 
+  
+ 
+  
+
+}
+.link{
+ color:white;
+  display:flex;
+  gap: 15px;
+  font-size:25px;
+ align-self: center;
+  margin-left: 650px; 
+
+}
+
+.user
+{
+  display:flex;
+  align-self: center;
+  gap:10px;
+  align-items: center;
+}
+.nav-link{
+  color:white;
+  
+  font-family:'Times New Roman', Times, serif;
+}
+.active-nav-link {
+  color: lightblue;
+}
+.logout
+{
+ border-radius: 5px;
+ height:20px;
+ background-color: lightblue;
+}
+.userName
+{
+  color:white;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+.createPostForm{
+  display: grid;
+  justify-content: center;  
+  grid-template-rows: 1.5fr 0.3fr 5fr 0.5fr 1fr;
+  flex-direction: column;
+  /* background-color: #0067A5; */
+  background-color: #0067A5;
+  width:500px;
+  min-height: 400px;
+  border: solid black;
+  border-radius: 25px;
+  margin:auto;
+  margin-top: 100px;
+
+}
+.createPostDescription
+{
+  background-color: aliceblue;
+   height:200px; 
+   width:400px;
+   border-radius: 5px; 
+   font-family: 'Times New Roman', Times, serif; 
+
+  font-size: 25px; 
+  align-items: center;
+  font-style: italic;
+
+}
+.createPostTitle{
+  font-family: 'Times New Roman', Times, serif; 
+  font-style:  bold;
+  text-transform: uppercase;
+ text-align: center;
+  font-size: 30px;
+  place-self: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  height:40px;
+}
+.submitBtn
+{
+  width:90px;
+  place-self: center;
+  height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+.post{
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color:lightblue;
+
+}
+/* username of each post */
+header{
+  font-size:30px;
+ 
+  margin-right: 350px;
+}
+.postInside
+{
+  display:grid;
+  grid-template-rows: 2fr fit-content 1fr;
+  background-color:#0067A5 ;
+  gap:10px;
+  border:aliceblue solid 5px;
+  
+  border-radius: 50px;
+  width:600px;
+  margin: auto;
+}
+.title{
+  text-transform: uppercase;
+  border: aliceblue solid 2px;
+  border-radius: 50px;
+  color: white;
+}
+.description{
+  background-color: aliceblue;
+  height:200px; 
+  min-height: fit-content;
+  width:400px;
+   min-width: fit-content;
+  border-radius: 5px; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 40px; 
+  align-items: center;
+  font-style: italic;
+  place-self: center;
+  
+  overflow-y:scroll;
+ 
+}
+footer{
+  display:flex;
+  justify-content:center;
+  flex-basis: 2fr 1fr;
+  
+}
+
+.likeAmount
+{
+  color:white;
+  padding-left: 20px;
+}
+.likeBtn
+{
+  width:50px;
+  font-size: x-large;
+  background-color: aliceblue;
+  border-radius: 10px;
+  
 }
